@@ -1,0 +1,21 @@
+{
+  "name": "scraper2",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Patrick Shaughnessy <pshaughn86@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

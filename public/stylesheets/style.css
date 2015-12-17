@@ -1,0 +1,30 @@
+.imageArea {
+  padding: 5%;
+}
+
+.girlpic {
+  height: 50%;
+  width: 50vw;
+  display: inline;
+  margin: 5%
+}
+
+.rankingPic {
+  height: 15vw;
+  width: 15vw;
+}
+
+.rankingsArea {
+  padding: 0 35%;
+}
+
+table th {
+  padding: 10% 5%;
+  text-decoration: underline;
+  font-size: 3em;
+  text-align: center;
+}
+
+table td:first-child {
+  font-size: 15em;
+}

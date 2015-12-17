@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Girls</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+    <button id="goToRankPage">Rank Some Girlies</button>
+
+    <div class="rankingsArea">
+      <table>
+        <thead>
+          <tr>
+            <th>Ranking</th>
+            <th>Girlie</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for(var i=0; i < girls.length; i++) { %>
+              <tr>
+                <td><%= girls[i].rank %> </td>
+                <td>
+                  <img class='rankingPic' src=<%= girls[i].url %> alt="">
+                </td>
+              </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="javascripts/rankings.js"></script>
+  </body>
+</html>
